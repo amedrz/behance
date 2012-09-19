@@ -10,8 +10,7 @@ describe Behance::Client::Project do
     @options = { api_key: @client.access_token }
   end
 
-  describe ".projects" do
-    
+  describe "#projects" do
     context "without parameters" do
       before do
         stub_get("projects").with(query: @options).
@@ -42,7 +41,7 @@ describe Behance::Client::Project do
     end
   end
 
-  describe ".project" do
+  describe "#project" do
     before do
       stub_get("project/4889175").with(query: @options).
         to_return(body: fixture("project.json"))
@@ -59,7 +58,7 @@ describe Behance::Client::Project do
     end
   end
 
-  describe ".project_comments" do
+  describe "#project_comments" do
     before do
       stub_get("project_comments/1").with(query: @options).
         to_return(body: fixture("project_comments.json"))

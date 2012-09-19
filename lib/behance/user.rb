@@ -22,8 +22,8 @@ module Behance
       #   @client.users(q: "Juan", state: "California", :tags "freelance,web")
       #
       # Returns an array of users in JSON format.
-      def users(options)
-        true
+      def users(options={})
+        request("users", options)["users"]
       end
 
       # Public: Get basic information about a user.
@@ -32,7 +32,7 @@ module Behance
       #
       # Returns a single user object.
       def user(user)
-        true
+        request("user/#{user}")["user"]
       end
 
       # Public: Get the projects published by an user. 
@@ -46,8 +46,8 @@ module Behance
       # page - The page number of the results, always starting with 1.
       #
       # Returns an array of projects published an user in JSON format.
-      def user_projects(user)
-        true
+      def user_projects(user, options={})
+        request("users/#{user}/projects", options)["projects"]
       end
 
       # Public: Get the works-in-progress published by a user.
