@@ -90,8 +90,52 @@ describe Behance::Client::User do
     end
   end
 
-  describe "#user_wips"
+  describe "#user_wips" do
+    context "without parameters" do
+      before do
+        stub_get("users/1/wips").with(query: @options).
+          to_return(body: fixture("user_wips.json"))
+        @wips = @client.user_wips(1)
+      end
 
-  describe "#user_appreciated_projects"
+      it "makes a http request" do
+        a_get("users/1/wips").
+          with(query: @options).should have_been_made
+      end
 
+      it "gets a list of wips" do
+        @wips.size.should == 2
+      end
+    end
+
+    context "with parameters" do
+      before do
+        @options.merge!(sort: "appreciations", page: 2)
+        stub_get("users/1/wips").with(query: @options).
+          to_return(body: fixture("user_wips.json"))
+      end
+
+      it "gets a list of wips" do
+        @wips = @client.user_wips(1, @options).size.
+          should == 2
+      end
+    end
+  end
+
+  describe "#user_appreciations" do
+    before do
+      stub_get("users/1/appreciations").with(query: @options).
+        to_return(body: fixture("user_appreciations.json"))
+      @appreciations = @client.user_appreciations(1)
+    end
+
+    it "makes an http request" do
+      a_get("users/1/appreciations").with(query: @options).
+        should have_been_made
+    end
+
+    it "gets a list of appreciations" do
+      @appreciations.size.should == 4
+    end
+  end
 end

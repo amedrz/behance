@@ -61,8 +61,8 @@ module Behance
       # page - The page number of the results, always starting with 1.
       #
       # Returns an array of work-in-progress of an user in JSON format.
-      def user_wips(user)
-        true
+      def user_wips(user, options={})
+        request("users/#{user}/wips", options)["wips"]
       end
 
       # Public: Get a list of user's recently appreciated projects.
@@ -71,8 +71,8 @@ module Behance
       #
       # Returns an array of user's recently appreciated projects in JSON
       # format.
-      def user_appreciated_projects(user)
-        true
+      def user_appreciations(user)
+        request("users/#{user}/appreciations")["appreciations"]
       end
     end
   end
