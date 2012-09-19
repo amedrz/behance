@@ -129,7 +129,7 @@ describe Behance::Client::User do
       @appreciations = @client.user_appreciations(1)
     end
 
-    it "makes an http request" do
+    it "makes a http request" do
       a_get("users/1/appreciations").with(query: @options).
         should have_been_made
     end
