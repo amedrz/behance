@@ -43,7 +43,7 @@ module Behance
       #
       # Returns a single user object.
       def user(user)
-        request("user/#{user}")["user"]
+        request("users/#{user}")["user"]
       end
 
       # Public: Get the projects published by an user. 

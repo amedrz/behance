@@ -43,13 +43,13 @@ describe Behance::Client::User do
 
   describe "#user" do
     before do
-      stub_get("user/1").with(query: @options).
+      stub_get("users/1").with(query: @options).
         to_return(body: fixture("user.json"))
       @user = @client.user(1)
     end
 
     it "makes a http request" do
-      a_get("user/1").
+      a_get("users/1").
         with(query: @options).should have_been_made
     end
 
