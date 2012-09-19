@@ -33,18 +33,24 @@ module Behance
       end
     end
 
-    # Public: Makes a request to the API.
+    # Public: Makes a http request to the API.
     #
-    # path - A String that represents the endpoint path.
+    # path     - A String that represents the endpoint path.
+    # options  - Hash of parameters to pass along.
     #
     # Examples
     #
-    #   request("/users/1")
+    #   request("users/1")
+    #   request("projects", page: 2)
     #
     # Returns a response body from the API.
-    def request(path)
+    def request(path, options={})
       response = @connection.get do |req|
-        req.url path, :api_key => @access_token
+        req.url path
+        req.params[:api_key] = @access_token
+        options.each do |key, val|
+          req.params[key] = val
+        end
       end
       response.body
     end

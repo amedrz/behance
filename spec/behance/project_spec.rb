@@ -6,33 +6,52 @@ describe Behance::Client::Project do
     @client = Behance::Client.new(:access_token => "abc123")
   end
 
+  before do
+    @options = { api_key: @client.access_token }
+  end
+
   describe ".projects" do
-    before do
-      stub_get("projects").with(query: { api_key: @client.access_token }).
-        to_return(body: fixture("projects.json"))
-      @projects = @client.projects
+    
+    context "without parameters" do
+      before do
+        stub_get("projects").with(query: @options).
+          to_return(body: fixture("projects.json"))
+        @projects = @client.projects
+      end
+
+      it "makes a http request" do
+        a_get("projects").
+          with(query: @options).should have_been_made
+      end
+
+      it "gets a list of projects" do
+        @projects.size.should == 7
+      end
     end
 
-    it "makes a http request" do
-      a_get("projects").
-        with(query: { api_key: @client.access_token }).should have_been_made
-    end
+    context "with parameters" do
+      before do
+        @options.merge!(q: "yolo", page: 2)
+        stub_get("projects").with(query: @options).
+          to_return(body: fixture("projects.json"))
+      end
 
-    it "gets a list of projects" do
-      @projects.size.should == 7
+      it "gets a list of projects" do
+        @client.projects(@options).size.should == 7
+      end
     end
   end
 
   describe ".project" do
     before do
-      stub_get("project/4889175").with(query: { api_key: @client.access_token }).
+      stub_get("project/4889175").with(query: @options).
         to_return(body: fixture("project.json"))
       @project = @client.project(4889175)
     end
 
     it "makes a http request" do
       a_get("project/4889175").
-        with(query: { api_key: @client.access_token }).should have_been_made
+        with(query: @options).should have_been_made
     end
 
     it "gets a single project" do
@@ -42,14 +61,14 @@ describe Behance::Client::Project do
 
   describe ".project_comments" do
     before do
-      stub_get("project_comments/1").with(query: { api_key: @client.access_token }).
+      stub_get("project_comments/1").with(query: @options).
         to_return(body: fixture("project_comments.json"))
       @comments = @client.project_comments(1)
     end
 
     it "makes a http request" do
       a_get("project_comments/1").
-        with(query: { api_key: @client.access_token }).should have_been_made
+        with(query: @options).should have_been_made
     end
 
     it "gets a list of comments" do

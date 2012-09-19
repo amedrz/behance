@@ -24,12 +24,18 @@ module Behance
       #   @client.projects(q: "Freelance", state: "CA", field: "Branding")
       #
       # Returns an array of projects in JSON format.
-      def projects
-        request("projects")["projects"]
+      def projects(options={})
+        request("projects", options)["projects"]
       end
 
-      # Get the information and content of a project.
-      # 
+      # Public: Get the information and content of a project.
+      #
+      # project_id - the ID (Integer) of the project.
+      #
+      # Examples
+      #
+      #   @client.project(1123)
+      #
       # Returns a single project in JSON format.
       def project(project_id)
         request("project/#{project_id}")["project"]
@@ -37,11 +43,12 @@ module Behance
 
       # Public: Get the comments for a project
       # 
-      # page - The page number of the results, always starting with 1.
+      # project_id - The ID (Integer) of the project. 
+      # page       - The page number of the results, always starting with 1.
       # 
       # Examples
       # 
-      #   @client.project_comments(project_id: 1, page: 1)
+      #   @client.project_comments(1, page: 1)
       # 
       # Returns an array of project comments in JSON format.
       def project_comments(project_id)
