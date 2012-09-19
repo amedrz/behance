@@ -25,14 +25,14 @@ module Behance
       #
       # Returns an array of projects in JSON format.
       def projects
-        true
+        request("projects")["projects"]
       end
 
       # Get the information and content of a project.
       # 
       # Returns a single project in JSON format.
       def project(project_id)
-        true
+        request("project/#{project_id}")["project"]
       end
 
       # Public: Get the comments for a project
@@ -45,7 +45,7 @@ module Behance
       # 
       # Returns an array of project comments in JSON format.
       def project_comments(project_id)
-        true
+        request("project_comments/#{project_id}")["comments"] 
       end
     end
   end

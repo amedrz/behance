@@ -1,14 +1,19 @@
 require File.expand_path('../project', __FILE__)
 require File.expand_path('../user', __FILE__)
 require 'faraday'
+require 'faraday_middleware'
+
 # Public: Methods handled by the Client connection.
 module Behance
+
   class Client
+
+    API_URL = "http://www.behance.net/v2/"
 
     include Behance::Client::Project
     include Behance::Client::User
 
-    attr_accessor :access_token
+    attr_accessor :access_token, :connection
 
     # Public: Initialize a client for API requests.
     #
@@ -22,33 +27,26 @@ module Behance
     # Returns a Faraday instance object.
     def initialize(options={})
       @access_token = options[:access_token]
-      @connection ||= Faraday.new(:url => api_url) do |builder|
-        builder.adapter Faraday.default_adapter
+      @connection = Faraday.new(:url => Behance::Client::API_URL) do |b|
+        b.adapter Faraday.default_adapter
+        b.use     FaradayMiddleware::ParseJson
       end
     end
 
-    private
-
-    # Internal: Makes a request to the API.
+    # Public: Makes a request to the API.
     #
     # path - A String that represents the endpoint path.
     #
     # Examples
     #
-    #   @client.request("/users/1")
+    #   request("/users/1")
     #
     # Returns a response body from the API.
     def request(path)
-      @connection.get do |req|
+      response = @connection.get do |req|
         req.url path, :api_key => @access_token
       end
-    end
-
-    # Internal: Base URL for API requests.
-    #
-    # Returns an URL String.
-    def api_url
-      ("http://www.behance.net/v2/").freeze
+      response.body
     end
   end
 end
