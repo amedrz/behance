@@ -4,7 +4,7 @@ A Ruby wrapper for the Behance API.
 
 More information about the API capabilities can be found [here][api].
 
-[api]: http://www.behance.net/devi
+[api]: http://www.behance.net/dev
 
 ## Installation
 
