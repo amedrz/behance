@@ -96,6 +96,6 @@ Once you get it, you'll be able to start playing
 ## Copyright
 
 Copyright (c) 2012-2013 Tractical.
-See [LICENSE][licence] for details.
+See [LICENSE][license] for details.
 
 [license]: https://github.com/tractical/behance/blob/master/LICENSE.txt
