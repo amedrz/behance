@@ -1,24 +1,89 @@
-# Behance
+# The Behance Ruby Gem
 
-TODO: Write a gem description
+A Ruby wrapper for the Behance API.
+
+More information about the API capabilities can be found [here][api].
+
+[api]: http://www.behance.net/devi
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'behance'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install behance
 
-## Usage
+## API Usage Examples
 
-TODO: Write usage instructions here
+First of all, you will need to get an access token [here][register].
+
+[register]: http://www.behance.net/dev/register
+
+Once you get it, you'll be able to start playing
+
+    # initializing the client
+    $ client = Behance::Client.new(access_token: "access-token")
+
+### Projects
+
+[Search for projects][projects]
+
+[projects]: http://www.behance.net/dev/api/endpoints/1#projects-get-10
+
+    $ client.projects
+    $ client.projects(city: "San Francisco", state: "California", field: "branding")
+
+[Get the information and content of a project][project]
+
+[project]: http://www.behance.net/dev/api/endpoints/1#projects-get-4
+
+    $ client.project(5133725)
+
+[Get the comments for a project][project_comments]
+
+[project_comments]: http://www.behance.net/dev/api/endpoints/1#projects-get-5
+
+    $ client.project_comments(5133725)
+
+### Users
+
+[Search for users][users] 
+
+[users]: http://www.behance.net/dev/api/endpoints/2#users-get-9
+
+    $ client.users
+    $ client.users(state: "California", city: "San Francisco")
+
+[Get basic information about an user][user]
+
+[user]: http://www.behance.net/dev/api/endpoints/2#users-get-1
+
+    $ client.user(920309)
+    $ client.user("foo")
+
+[Get the projects published by an user][user_projects]
+
+[user_projects]: http://www.behance.net/dev/api/endpoints/2#users-get-2
+
+    $ client.user_projects(920309)
+    $ client.user_projects("jonkap1")
+    $ client.user_projects("jonkap1", page: 2, sort: "views")
+
+[Get the works-in-progress published by an user][user_wips]
+
+[user_wips]: http://www.behance.net/dev/api/endpoints/2#users-get-3
+
+    $ client.user_wips(920309)
+    $ client.user_wips(920309, page: 2)
+    $ client.user_wips("jonkap1", sort: "comments", page: 3)
+
+[Get a list of user's recently appreciated projects][user_appreciations]
+
+[user_appreciations]: http://www.behance.net/dev/api/endpoints/2#users-get-13
+
+    $ client.user_appreciations(920309)
+    $ client.user_appreciations("jonkap1")
+
+### Works in Progress
+
+**This is an actual work in progress ;-)**
 
 ## Contributing
 
@@ -27,3 +92,10 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Copyright
+
+Copyright (c) 2012-2013 Tractical.
+See [LICENSE][license] for details.
+
+[license]: https://github.com/tractical/behance/blob/master/LICENSE.txt
