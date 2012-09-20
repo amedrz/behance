@@ -43,13 +43,13 @@ describe Behance::Client::Project do
 
   describe "#project" do
     before do
-      stub_get("project/4889175").with(query: @options).
+      stub_get("projects/4889175").with(query: @options).
         to_return(body: fixture("project.json"))
       @project = @client.project(4889175)
     end
 
     it "makes a http request" do
-      a_get("project/4889175").
+      a_get("projects/4889175").
         with(query: @options).should have_been_made
     end
 
@@ -60,13 +60,13 @@ describe Behance::Client::Project do
 
   describe "#project_comments" do
     before do
-      stub_get("project_comments/1").with(query: @options).
+      stub_get("projects/1/comments").with(query: @options).
         to_return(body: fixture("project_comments.json"))
       @comments = @client.project_comments(1)
     end
 
     it "makes a http request" do
-      a_get("project_comments/1").
+      a_get("projects/1/comments").
         with(query: @options).should have_been_made
     end
 
@@ -74,5 +74,4 @@ describe Behance::Client::Project do
       @comments.size.should == 9
     end
   end
-
 end
