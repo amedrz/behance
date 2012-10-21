@@ -98,7 +98,7 @@ Once you get it, you'll be able to start playing
 
 [Get information and contents of a revision of a work in progress][wip_revision]
 
-[wip_revison]: http://www.behance.net/dev/api/endpoints/3#work-in-progress-get-7
+[wip_revision]: http://www.behance.net/dev/api/endpoints/3#work-in-progress-get-7
 
     $ client.wip_revision(69, 133)
 
