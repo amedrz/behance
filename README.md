@@ -56,7 +56,7 @@ Once you get it, you'll be able to start playing
 [user]: http://www.behance.net/dev/api/endpoints/2#users-get-1
 
     $ client.user(920309)
-    $ client.user("foo")
+    $ client.user("jonkap1")
 
 [Get the projects published by an user][user_projects]
 
@@ -83,7 +83,30 @@ Once you get it, you'll be able to start playing
 
 ### Works in Progress
 
-**This is an actual work in progress ;-)**
+[Search for works-in-progress][wips]
+
+[wips]: http://www.behance.net/dev/api/endpoints/3#work-in-progress-get-11
+
+    $ client.wips
+    $ client.wips(time: "today", page: 2)
+
+[Get information about a work in progress][wip]
+
+[wip]: http://www.behance.net/dev/api/endpoints/3#work-in-progress-get-6
+
+    $ client.wip(69)
+
+[Get information and contents of a revision of a work in progress][wip_revision]
+
+[wip_revision]: http://www.behance.net/dev/api/endpoints/3#work-in-progress-get-7
+
+    $ client.wip_revision(69, 133)
+
+[Get comments on a revision of a work in progress][wip_revision_comments]
+
+[wip_revision_comments]: http://www.behance.net/dev/api/endpoints/3#work-in-progress-get-8
+
+    $ client.wip_revision_comments(69, 133)
 
 ## Contributing
 
