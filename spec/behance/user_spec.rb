@@ -138,4 +138,21 @@ describe Behance::Client::User do
       @appreciations.size.should == 4
     end
   end
+
+  describe "#user_collections" do
+    before do
+      stub_get("users/1/collections").with(query: @options).
+          to_return(body: fixture("user_collections.json"))
+      @collections = @client.user_collections(1)
+    end
+
+    it "makes a http request" do
+      a_get("users/1/collections").with(query: @options).
+          should have_been_made
+    end
+
+    it "gets a list of collections" do
+      @collections.size.should == 2
+    end
+  end
 end
