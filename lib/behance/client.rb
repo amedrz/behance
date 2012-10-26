@@ -1,6 +1,7 @@
 require File.expand_path('../project', __FILE__)
 require File.expand_path('../user', __FILE__)
 require File.expand_path('../wips', __FILE__)
+require File.expand_path('../collections', __FILE__)
 require 'faraday'
 require 'faraday_middleware'
 
@@ -14,6 +15,7 @@ module Behance
     include Behance::Client::Project
     include Behance::Client::User
     include Behance::Client::Wips
+    include Behance::Client::Collections
 
     attr_accessor :access_token, :connection
 
