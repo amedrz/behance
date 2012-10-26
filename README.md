@@ -81,6 +81,14 @@ Once you get it, you'll be able to start playing
     $ client.user_appreciations(920309)
     $ client.user_appreciations("jonkap1")
 
+[Get a list of a user's collections. The user argument can be an ID or username.][user_collections]
+
+[user_collections]: http://www.behance.net/dev/api/endpoints/2#users-get-21
+
+    $ client.user_collections(42)
+    $ client.user_collections(42, page: 2)
+    $ client.user_collections("rur", page: 2)
+
 ### Works in Progress
 
 [Search for works-in-progress][wips]
@@ -121,14 +129,14 @@ Once you get it, you'll be able to start playing
 
 [collection]: http://www.behance.net/dev/api/endpoints/5#collections-get-17
 
-    $ client.collections(5074147)
+    $ client.collection(5074147)
 
 [Get projects from a collection][collection_projects]
 
 [collection_projects]: http://www.behance.net/dev/api/endpoints/5#collections-get-19
 
-    $ client.collections_projects(5074147)
-    $ client.collections_projects(5074147, page: 2)
+    $ client.collection_projects(5074147)
+    $ client.collection_projects(5074147, page: 2)
 
 ## Contributing
 
