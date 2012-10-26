@@ -108,6 +108,28 @@ Once you get it, you'll be able to start playing
 
     $ client.wip_revision_comments(69, 133)
 
+### Collections
+
+[Search for collections][collections]
+
+[collections]: http://www.behance.net/dev/api/endpoints/5#collections-get-15
+
+    $ client.collections
+    $ client.collections(time: "today", page: 2)
+
+[Get basic information about a collection][collection]
+
+[collection]: http://www.behance.net/dev/api/endpoints/5#collections-get-17
+
+    $ client.collections(5074147)
+
+[Get projects from a collection][collection_projects]
+
+[collection_projects]: http://www.behance.net/dev/api/endpoints/5#collections-get-19
+
+    $ client.collections_projects(5074147)
+    $ client.collections_projects(5074147, page: 2)
+
 ## Contributing
 
 1. Fork it
