@@ -106,6 +106,21 @@ module Behance
       def user_appreciations(user)
         request("users/#{user}/appreciations")["appreciations"]
       end
+
+      # Public: Get a list of user's public collections.
+      #
+      # user - can be an ID (Integer) or username (String).
+      #
+      # Examples
+      #
+      #   @client.user_collections(1)
+      #   @client.user_collections("foo")
+      #
+      # Returns an array of user's public collections in JSON
+      # format.
+      def user_collections(user)
+        request("users/#{user}/collections")["collections"]
+      end
     end
   end
 end
