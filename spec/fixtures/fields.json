@@ -1,0 +1,26 @@
+{ "fields": [
+  {
+    "id": 1,
+    "name": "Academia"
+  },
+  {
+    "id": 108,
+    "name": "Advertising"
+  },
+  {
+    "id": 3,
+    "name": "Animation"
+  },
+  {
+    "id": 4,
+    "name": "Architecture"
+  },
+  {
+    "id": 5,
+    "name": "Art Direction"
+  },
+  {
+    "id": 130,
+    "name": "Automotive Design"
+  }
+]}

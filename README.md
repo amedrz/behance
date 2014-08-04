@@ -138,6 +138,14 @@ Once you get it, you'll be able to start playing
     $ client.collection_projects(5074147)
     $ client.collection_projects(5074147, page: 2)
 
+### Creative Fields
+
+[Retrieve all Creative Fields][fields]
+
+[fields]: https://www.behance.net/dev/api/endpoints/11#creative-fields-get-75
+
+    $ client.fields
+
 ## Contributing
 
 1. Fork it
