@@ -89,6 +89,13 @@ Once you get it, you'll be able to start playing
     $ client.user_collections(42, page: 2)
     $ client.user_collections("rur", page: 2)
 
+[Get user's statistics (all-time and today).][user_stats]
+
+[user_stats]: https://www.behance.net/dev/api/endpoints/2#users-get-55
+
+    $ client.user_stats(42)
+    $ client.user_stats("jonkap1")
+
 ### Works in Progress
 
 [Search for works-in-progress][wips]

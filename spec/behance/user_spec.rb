@@ -155,4 +155,23 @@ describe Behance::Client::User do
       @collections.size.should == 2
     end
   end
+
+  describe "#user_stats" do
+    before do
+      stub_get("users/1/stats").with(query: @options).
+          to_return(body: fixture("user_stats.json"))
+      @stats = @client.user_stats(1)
+    end
+
+    it "makes a http request" do
+      a_get("users/1/stats").with(query: @options).
+          should have_been_made
+    end
+
+    it "gets a users stats" do
+      @stats.size.should == 2
+      @stats["today"]["project_appreciations"].should == 5
+      @stats["all_time"]["project_comments"].should == 20
+    end
+  end
 end
