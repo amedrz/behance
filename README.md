@@ -89,6 +89,13 @@ Once you get it, you'll be able to start playing
     $ client.user_collections(42, page: 2)
     $ client.user_collections("rur", page: 2)
 
+[A list of the user's professional experience.][user_work_experience]
+
+[user_work_experience]: https://www.behance.net/dev/api/endpoints/2#users-get-71
+
+    $ client.user_work_experience(42)
+    $ client.user_work_experience("jonkap1")
+
 ### Works in Progress
 
 [Search for works-in-progress][wips]

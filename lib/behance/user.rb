@@ -121,6 +121,20 @@ module Behance
       def user_collections(user)
         request("users/#{user}/collections")["collections"]
       end
+
+      # Public: A list of the user's professional experience.
+      #
+      # user - can be an ID (Integer) or username (String).
+      #
+      # Examples
+      #
+      #   @client.user_work_experience(1)
+      #   @client.user_work_experience("foo")
+      #
+      # Returns an array od user's professions experience.
+      def user_work_experience(user)
+        request("users/#{user}/work_experience")["work_experience"]
+      end
     end
   end
 end
