@@ -121,6 +121,20 @@ module Behance
       def user_collections(user)
         request("users/#{user}/collections")["collections"]
       end
+
+      # Public: Get user's statistics (all-time and today).
+      #
+      # user - can be an ID (Integer) or username (String).
+      #
+      # Examples
+      #
+      #   @client.user_stats(1)
+      #   @client.user_stats("foo")
+      #
+      # Returns "today" and "all_time" stats objects.
+      def user_stats(user)
+        request("users/#{user}/stats")["stats"]
+      end
     end
   end
 end
