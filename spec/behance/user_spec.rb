@@ -174,4 +174,21 @@ describe Behance::Client::User do
       @stats["all_time"]["project_comments"].should == 20
     end
   end
+
+  describe "#user_work_experience" do
+    before do
+      stub_get("users/1/work_experience").with(query: @options).
+          to_return(body: fixture("user_work_experience.json"))
+      @work_experience = @client.user_work_experience(1)
+    end
+
+    it "makes a http request" do
+      a_get("users/1/work_experience").with(query: @options).
+          should have_been_made
+    end
+
+    it "gets a list of work_experience" do
+      @work_experience.size.should == 5
+    end
+  end
 end
