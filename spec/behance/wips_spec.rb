@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Behance::Client::Wips do
 
   before(:all) do
-    @client = Behance::Client.new(access_token: "av1lj432vjf")
+    @client = Behance::Client.new(access_token: "abc123")
   end
 
   before do
@@ -23,7 +23,7 @@ describe Behance::Client::Wips do
       end
 
       it "gets a list of wips" do
-        @wips.size.should == 3
+        @wips.size.should == 12
       end
     end
 
@@ -35,7 +35,7 @@ describe Behance::Client::Wips do
       end
 
       it "gets a list of wips" do
-        @client.wips(@options).size.should == 3
+        @client.wips(@options).size.should == 12
       end
     end
   end
@@ -74,19 +74,34 @@ describe Behance::Client::Wips do
   end
 
   describe "#wip_revision_comments" do
-    before do
-      stub_get("wips/1/2/comments").with(query: @options).
-        to_return(body: fixture("wip_revision_comments.json"))
-      @comments = @client.wip_revision_comments(1, 2)
+    context "without parameters" do
+      before do
+        stub_get("wips/1/2/comments").with(query: @options).
+          to_return(body: fixture("wip_revision_comments.json"))
+        @comments = @client.wip_revision_comments(1, 2)
+      end
+
+      it "makes a http request" do
+        a_get("wips/1/2/comments").with(query: @options).
+          should have_been_made
+      end
+
+      it "gets a list of comments" do
+        @comments.size.should == 6
+      end
     end
 
-    it "makes a http request" do
-      a_get("wips/1/2/comments").with(query: @options).
-        should have_been_made
-    end
+    context "with parameters" do
+      before do
+        @options.merge!(page: 2)
+        stub_get("wips/1/2/comments").with(query: @options).
+          to_return(body: fixture("wip_revision_comments.json"))
+      end
 
-    it "gets a list of comments" do
-      @comments.size.should == 4
+      it "gets a list of comments" do
+        @comments = @client.wip_revision_comments(1, 2, @options).size.
+          should == 6
+      end
     end
   end
 end

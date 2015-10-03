@@ -3,6 +3,7 @@ require File.expand_path('../user', __FILE__)
 require File.expand_path('../wips', __FILE__)
 require File.expand_path('../collections', __FILE__)
 require File.expand_path('../fields', __FILE__)
+require File.expand_path('../creatives_to_follow', __FILE__)
 require 'faraday'
 require 'faraday_middleware'
 
@@ -18,6 +19,7 @@ module Behance
     include Behance::Client::Wips
     include Behance::Client::Collections
     include Behance::Client::Fields
+    include Behance::Client::CreativesToFollow
 
     attr_accessor :access_token, :connection
 
@@ -33,7 +35,7 @@ module Behance
     # Returns a Faraday instance object.
     def initialize(options={})
       @access_token = options[:access_token]
-      @connection = Faraday.new(:url => Behance::Client::API_URL) do |b|
+      @connection = Faraday.new(url: Behance::Client::API_URL) do |b|
         b.adapter Faraday.default_adapter
         b.use     FaradayMiddleware::ParseJson
       end

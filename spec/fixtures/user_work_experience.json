@@ -1,31 +1,39 @@
 {
-
-    "work_experience": [
-        {
-            "position": "Co-Founder & Chief of Design",
-            "organization": "Behance",
-            "location": "Brooklyn, NY, USA"
-        },
-        {
-            "position": "Senior Designer",
-            "organization": "AR Media",
-            "location": "Brooklyn, NY, USA"
-        },
-        {
-            "position": "Senior Designer",
-            "organization": "Pro Am",
-            "location": "New York, NY, USA"
-        },
-        {
-            "position": "Junior Designer",
-            "organization": "Zeligmedia",
-            "location": "Barcelona, Spain"
-        },
-        {
-            "position": "Junior Designer",
-            "organization": "Triada ComunicaciÃ³n",
-            "location": "Barcelona, Spain"
-        }
-    ]
-
+  "work_experience": [
+    {
+      "position": "Co-Founder & Chief of Design",
+      "start_date": "12-2005",
+      "organization": "Behance, Inc.",
+      "location": "Brooklyn, NY, USA"
+    },
+    {
+      "position": "Senior Designer",
+      "start_date": "04-2003",
+      "end_date": "04-2004",
+      "organization": "AR Media",
+      "location": "Brooklyn, NY, USA"
+    },
+    {
+      "position": "Senior Designer",
+      "start_date": "12-2002",
+      "end_date": "03-2003",
+      "organization": "Pro Am",
+      "location": "New York, NY, USA"
+    },
+    {
+      "position": "Junior Designer",
+      "start_date": "09-2001",
+      "end_date": "10-2002",
+      "organization": "Zeligmedia",
+      "location": "Barcelona, Spain"
+    },
+    {
+      "position": "Junior Designer",
+      "start_date": "09-1999",
+      "end_date": "06-2000",
+      "organization": "Triada Comunicación",
+      "location": "Barcelona, Spain"
+    }
+  ],
+  "http_code": 200
 }

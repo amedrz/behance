@@ -24,7 +24,7 @@ describe Behance::Client::User do
       end
 
       it "gets an users list" do
-        @users.size.should == 4
+        @users.size.should == 12
       end
     end
 
@@ -36,7 +36,7 @@ describe Behance::Client::User do
       end
 
       it "gets an users list" do
-        @users = @client.users(@options).size.should == 4
+        @users = @client.users(@options).size.should == 12
       end
     end
   end
@@ -72,7 +72,7 @@ describe Behance::Client::User do
       end
 
       it "gets a list of projects" do
-        @projects.size.should == 2
+        @projects.size.should == 12
       end
     end
 
@@ -85,7 +85,7 @@ describe Behance::Client::User do
 
       it "gets a list of projects" do
         @projects = @client.user_projects(1, @options).
-          size.should == 2
+          size.should == 12
       end
     end
   end
@@ -104,7 +104,7 @@ describe Behance::Client::User do
       end
 
       it "gets a list of wips" do
-        @wips.size.should == 2
+        @wips.size.should == 5
       end
     end
 
@@ -117,42 +117,72 @@ describe Behance::Client::User do
 
       it "gets a list of wips" do
         @wips = @client.user_wips(1, @options).size.
-          should == 2
+          should == 5
       end
     end
   end
 
   describe "#user_appreciations" do
-    before do
-      stub_get("users/1/appreciations").with(query: @options).
-        to_return(body: fixture("user_appreciations.json"))
-      @appreciations = @client.user_appreciations(1)
+    context "without parameters" do
+      before do
+        stub_get("users/1/appreciations").with(query: @options).
+          to_return(body: fixture("user_appreciations.json"))
+        @appreciations = @client.user_appreciations(1)
+      end
+
+      it "makes a http request" do
+        a_get("users/1/appreciations").with(query: @options).
+          should have_been_made
+      end
+
+      it "gets a list of appreciations" do
+        @appreciations.size.should == 16
+      end
     end
 
-    it "makes a http request" do
-      a_get("users/1/appreciations").with(query: @options).
-        should have_been_made
-    end
+    context "with parameters" do
+      before do
+        @options.merge!(page: 2)
+        stub_get("users/1/appreciations").with(query: @options).
+          to_return(body: fixture("user_appreciations.json"))
+      end
 
-    it "gets a list of appreciations" do
-      @appreciations.size.should == 4
+      it "gets a list of appreciations" do
+        @appreciations = @client.user_appreciations(1, @options).size.
+          should == 16
+      end
     end
   end
 
   describe "#user_collections" do
-    before do
-      stub_get("users/1/collections").with(query: @options).
-          to_return(body: fixture("user_collections.json"))
-      @collections = @client.user_collections(1)
+    context "without parameters" do
+      before do
+        stub_get("users/1/collections").with(query: @options).
+            to_return(body: fixture("user_collections.json"))
+        @collections = @client.user_collections(1)
+      end
+
+      it "makes a http request" do
+        a_get("users/1/collections").with(query: @options).
+            should have_been_made
+      end
+
+      it "gets a list of collections" do
+        @collections.size.should == 10
+      end
     end
 
-    it "makes a http request" do
-      a_get("users/1/collections").with(query: @options).
-          should have_been_made
-    end
+    context "with parameters" do
+      before do
+        @options.merge!(page: 2)
+        stub_get("users/1/collections").with(query: @options).
+            to_return(body: fixture("user_collections.json"))
+      end
 
-    it "gets a list of collections" do
-      @collections.size.should == 2
+      it "gets a list of collections" do
+        @collections = @client.user_collections(1, @options).size.
+          should == 10
+      end
     end
   end
 
@@ -170,8 +200,72 @@ describe Behance::Client::User do
 
     it "gets a users stats" do
       @stats.size.should == 2
-      @stats["today"]["project_appreciations"].should == 5
-      @stats["all_time"]["project_comments"].should == 20
+      @stats["today"]["project_appreciations"].should == 2
+      @stats["all_time"]["project_comments"].should == 630
+    end
+  end
+
+  describe "#user_followers" do
+    context "without parameters" do
+      before do
+        stub_get("users/1/followers").with(query: @options).
+          to_return(body: fixture("user_followers.json"))
+        @followers = @client.user_followers(1)
+      end
+
+      it "makes a http request" do
+        a_get("users/1/followers").
+          with(query: @options).should have_been_made
+      end
+
+      it "gets a list of followers" do
+        @followers.size.should == 12
+      end
+    end
+
+    context "with parameters" do
+      before do
+        @options.merge!(sort: "appreciations", page: 2)
+        stub_get("users/1/followers").with(query: @options).
+          to_return(body: fixture("user_followers.json"))
+      end
+
+      it "gets a list of followers" do
+        @followers = @client.user_followers(1, @options).size.
+          should == 12
+      end
+    end
+  end
+
+  describe "#user_following" do
+    context "without parameters" do
+      before do
+        stub_get("users/1/following").with(query: @options).
+          to_return(body: fixture("user_following.json"))
+        @following = @client.user_following(1)
+      end
+
+      it "makes a http request" do
+        a_get("users/1/following").
+          with(query: @options).should have_been_made
+      end
+
+      it "gets a list of following" do
+        @following.size.should == 12
+      end
+    end
+
+    context "with parameters" do
+      before do
+        @options.merge!(sort: "appreciations", page: 2)
+        stub_get("users/1/following").with(query: @options).
+          to_return(body: fixture("user_following.json"))
+      end
+
+      it "gets a list of following" do
+        @following = @client.user_following(1, @options).size.
+          should == 12
+      end
     end
   end
 
