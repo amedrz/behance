@@ -1,30 +1,79 @@
 {
-
   "wip": {
     "id": 69,
-      "title": "Portfolio Review Schedule Design",
-      "revision_count": 1,
-      "latest_rev_id": 133,
-      "latest_rev_tags": [
-        "behance",
-      "schedule",
-      "information"
-        ],
-      "latest_rev_image": "http://behance.vo.llnwd.net/profiles/50004/wips/69/disp_4eb1864fcbe705dbcd6eca5ff155a454.png",
-      "latest_rev_thumb": "http://behance.vo.llnwd.net/profiles/50004/wips/69/thumb_4eb1864fcbe705dbcd6eca5ff155a454.png",
-      "url": "http://www.behance.net/wip/69",
-      "created_on": 1338927430,
-      "stats": {
-        "views": 149,
-        "comments": 8
-      },
-      "revisions": [
-      {
+    "url": "https://www.behance.net/wip/69",
+    "title": "Portfolio Review Schedule Design",
+    "revision_count": 1,
+    "project_id": 0,
+    "privacy": "public",
+    "mature_content": 0,
+    "mature_access": "allowed",
+    "created_on": 1338927430,
+    "stats": {
+      "revisions": 1,
+      "views": 246,
+      "comments": 8
+    },
+    "revisions": {
+      "133": {
         "id": 133,
+        "wip_id": 69,
         "description": "Here's the first version of the schedule for a sample event. I think the time increments for actual review meetings work for small groups, but possibly not for larger ones. I like the actions at the bottom. Working for others?",
-        "image": "http://behance.vo.llnwd.net/profiles/50004/wips/69/disp_4eb1864fcbe705dbcd6eca5ff155a454.png"
+        "short_url": "http://be.net/wip/69/133",
+        "url": "https://www.behance.net/wip/69/133",
+        "images": {
+          "thumbnail_sm": {
+            "width": 160,
+            "height": 160,
+            "url": "https://mir-s3-cdn-cf.behance.net/wip/thumb/133.53e395739d959.png"
+          },
+          "thumbnail": {
+            "width": 320,
+            "height": 200,
+            "url": "https://mir-s3-cdn-cf.behance.net/wip/320pxthumb/133.53e395739d959.png"
+          },
+          "normal_resolution": {
+            "width": 708,
+            "height": 443,
+            "url": "https://mir-s3-cdn-cf.behance.net/wip/disp/133.53e395739d959.png"
+          }
+        },
+        "number": 1,
+        "created_on": 1338927430,
+        "tags": [
+          "behance",
+          "schedule",
+          "information"
+        ]
       }
-    ]
-  }
-
+    },
+    "owner": {
+      "id": 50004,
+      "first_name": "Scott",
+      "last_name": "Belsky",
+      "username": "sbelsky",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "location": "New York, NY, USA",
+      "company": "Adobe",
+      "occupation": "Head of Behance; Community",
+      "created_on": 1182480652,
+      "url": "https://www.behance.net/sbelsky",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/50004.53a9829c17328.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/50004.53a9829c17328.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/50004.53a9829c17328.jpg"
+      },
+      "display_name": "Scott Belsky",
+      "fields": [
+        "Interaction Design",
+        "UI/UX",
+        "Web Design"
+      ],
+      "has_default_image": 0,
+      "website": "http://www.scottbelsky.com"
+    }
+  },
+  "http_code": 200
 }

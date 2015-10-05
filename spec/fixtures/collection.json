@@ -1,36 +1,220 @@
-{"collection":{
-    "id":"4776629",
-    "title":"-FASHION",
-    "owners":[
-        {
-            "id":1545661,
-            "first_name":"Ale",
-            "last_name":"Corsini",
-            "username":"alecorsini",
-            "city":"Berlin",
-            "state":"",
-            "country":"Germany",
-            "company":"Ale Corsini | digital filmmaker",
-            "occupation":"",
-            "created_on":1346604010,
-            "url":"http:\/\/www.behance.net\/alecorsini",
-            "display_name":"Ale Corsini",
-            "images":{
-                "32":"http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/32xfe9012188c697ec1d811a074eff535ab.jpg",
-                "50":"http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/50xfe9012188c697ec1d811a074eff535ab.jpg",
-                "78":"http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/78xfe9012188c697ec1d811a074eff535ab.jpg",
-                "115":"http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/115xfe9012188c697ec1d811a074eff535ab.jpg",
-                "129":"http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/129xfe9012188c697ec1d811a074eff535ab.jpg",
-                "138":"http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/fe9012188c697ec1d811a074eff535ab.jpg"
-            },
-            "fields":["Cinematography", "Directing", "Film"]
-        }
+{
+  "collection": {
+    "id": 9866,
+    "title": "Cool Candy Related Projects",
+    "owners": [
+      {
+        "id": 50004,
+        "first_name": "Scott",
+        "last_name": "Belsky",
+        "username": "sbelsky",
+        "city": "New York",
+        "state": "New York",
+        "country": "United States",
+        "location": "New York, NY, USA",
+        "company": "Adobe",
+        "occupation": "Head of Behance; Community",
+        "created_on": 1182480652,
+        "url": "https://www.behance.net/sbelsky",
+        "images": {
+          "50": "https://mir-s3-cdn-cf.behance.net/user/50/50004.53a9829c17328.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/user/115/50004.53a9829c17328.jpg",
+          "138": "https://mir-s3-cdn-cf.behance.net/user/138/50004.53a9829c17328.jpg"
+        },
+        "display_name": "Scott Belsky",
+        "fields": [
+          "Interaction Design",
+          "UI/UX",
+          "Web Design"
+        ],
+        "has_default_image": 0,
+        "website": "http://www.scottbelsky.com"
+      }
     ],
-    "stats":{
-        "items":2,
-        "followers":0
+    "url": "https://www.behance.net/collection/9866/Cool-Candy-Related-Projects",
+    "stats": {
+      "items": 36,
+      "followers": 244
     },
-    "images":["http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/projects\/5028817\/7e42a4ad2685251e95407b5e553d0f7c.jpg", "http:\/\/behance.vo.llnwd.net\/profiles17\/1545661\/projects\/5027865\/a8ed0a9f256504150adc1ab258c0ee13.jpg"],
-    "created_on":1347901891,
-    "modified_on":1347903068
-}}
+    "privacy": "public",
+    "latest_projects": [
+      {
+        "id": 22159121,
+        "name": "KamaSugar",
+        "published_on": 1418874815,
+        "created_on": 1418874560,
+        "modified_on": 1418874815,
+        "url": "https://www.behance.net/gallery/22159121/KamaSugar",
+        "privacy": "public",
+        "fields": [
+          "Fine Arts",
+          "Photography",
+          "Sculpting"
+        ],
+        "covers": {
+          "404": "https://mir-s3-cdn-cf.behance.net/projects/404/22159121.54924ef6e24e1.jpg",
+          "202": "https://mir-s3-cdn-cf.behance.net/projects/202/22159121.54924ef6e24e1.jpg",
+          "230": "https://mir-s3-cdn-cf.behance.net/projects/230/22159121.54924ef6e24e1.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/projects/115/22159121.54924ef6e24e1.jpg"
+        },
+        "mature_content": 0,
+        "mature_access": "allowed",
+        "owners": [
+          {
+            "id": 353989,
+            "first_name": "Massimo",
+            "last_name": "Gammacurta",
+            "username": "gammacurta",
+            "city": "City",
+            "state": "State / Province",
+            "country": "United States",
+            "location": "USA",
+            "company": "",
+            "occupation": "",
+            "created_on": 1299535577,
+            "url": "https://www.behance.net/gammacurta",
+            "images": {
+              "50": "https://a3.behance.net/img/profile/no-image-50.jpg?cb=744985463",
+              "115": "https://a3.behance.net/img/profile/no-image-115.jpg?cb=744985463",
+              "138": "https://a3.behance.net/img/profile/no-image-138.jpg?cb=744985463"
+            },
+            "display_name": "Massimo Gammacurta",
+            "fields": [
+              "Photography",
+              "Sculpting",
+              "Fine Arts"
+            ],
+            "has_default_image": 1,
+            "website": "http://gammacurta.com"
+          }
+        ],
+        "stats": {
+          "views": 1910,
+          "appreciations": 93,
+          "comments": 4
+        },
+        "conceived_on": -62169984000
+      },
+      {
+        "id": 15206089,
+        "name": "Eye Candy (typography)",
+        "published_on": 1394553089,
+        "created_on": 1394551340,
+        "modified_on": 1443455736,
+        "url": "https://www.behance.net/gallery/15206089/Eye-Candy-(typography)",
+        "privacy": "public",
+        "fields": [
+          "Culinary Arts",
+          "Typography"
+        ],
+        "covers": {
+          "404": "https://mir-s3-cdn-cf.behance.net/projects/404/5d8d9615206089.5559db700748c.png",
+          "202": "https://mir-s3-cdn-cf.behance.net/projects/202/5d8d9615206089.5559db700748c.png",
+          "230": "https://mir-s3-cdn-cf.behance.net/projects/230/5d8d9615206089.5559db700748c.png",
+          "115": "https://mir-s3-cdn-cf.behance.net/projects/115/5d8d9615206089.5559db700748c.png"
+        },
+        "mature_content": 0,
+        "mature_access": "allowed",
+        "owners": [
+          {
+            "id": 587801,
+            "first_name": "Pat",
+            "last_name": "Simons",
+            "username": "vanhoning",
+            "city": "The Hague",
+            "state": "",
+            "country": "Netherlands",
+            "location": "The Hague, Netherlands",
+            "company": "",
+            "occupation": "Creative at Van Honing",
+            "created_on": 1313240697,
+            "url": "https://www.behance.net/vanhoning",
+            "images": {
+              "50": "https://mir-s3-cdn-cf.behance.net/user/50/90af95587801.560650892e074.jpg",
+              "100": "https://mir-s3-cdn-cf.behance.net/user/100/90af95587801.560650892e074.jpg",
+              "115": "https://mir-s3-cdn-cf.behance.net/user/115/90af95587801.560650892e074.jpg",
+              "230": "https://mir-s3-cdn-cf.behance.net/user/230/90af95587801.560650892e074.jpg",
+              "138": "https://mir-s3-cdn-cf.behance.net/user/138/90af95587801.560650892e074.jpg",
+              "276": "https://mir-s3-cdn-cf.behance.net/user/276/90af95587801.560650892e074.jpg"
+            },
+            "display_name": "Pat Simons",
+            "fields": [
+              "Graphic Design",
+              "Typography",
+              "Illustration"
+            ],
+            "has_default_image": 0,
+            "website": "www.patricksimons.net"
+          }
+        ],
+        "stats": {
+          "views": 10222,
+          "appreciations": 1476,
+          "comments": 95
+        },
+        "conceived_on": -62169984000
+      },
+      {
+        "id": 3725387,
+        "name": "Wooden Popsicle",
+        "published_on": 1335179392,
+        "created_on": 1335178164,
+        "modified_on": 1432481479,
+        "url": "https://www.behance.net/gallery/3725387/Wooden-Popsicle",
+        "privacy": "public",
+        "fields": [
+          "Fine Arts",
+          "Product Design",
+          "Sculpting"
+        ],
+        "covers": {
+          "202": "https://mir-s3-cdn-cf.behance.net/projects/202/3725387.545e7ada1680d.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/projects/115/3725387.545e7ada1680d.jpg"
+        },
+        "mature_content": 0,
+        "mature_access": "allowed",
+        "owners": [
+          {
+            "id": 852917,
+            "first_name": "Mauro",
+            "last_name": "Savoldi",
+            "username": "JohnnyHermann",
+            "city": "Milan",
+            "state": "",
+            "country": "Italy",
+            "location": "Milan, Italy",
+            "company": "johnny hermann",
+            "occupation": "artist - designer - maker",
+            "created_on": 1326290661,
+            "url": "https://www.behance.net/JohnnyHermann",
+            "images": {
+              "50": "https://mir-s3-cdn-cf.behance.net/user/50/852917.53b125f4da484.jpg",
+              "100": "https://mir-s3-cdn-cf.behance.net/user/100/852917.53b125f4da484.jpg",
+              "115": "https://mir-s3-cdn-cf.behance.net/user/115/852917.53b125f4da484.jpg",
+              "230": "https://mir-s3-cdn-cf.behance.net/user/230/852917.53b125f4da484.jpg",
+              "138": "https://mir-s3-cdn-cf.behance.net/user/138/852917.53b125f4da484.jpg",
+              "276": "https://mir-s3-cdn-cf.behance.net/user/276/852917.53b125f4da484.jpg"
+            },
+            "display_name": "Mauro Savoldi",
+            "fields": [
+              "Sculpting",
+              "Product Design",
+              "Fine Arts"
+            ],
+            "has_default_image": 0,
+            "website": "www.johnnyhermann.com"
+          }
+        ],
+        "stats": {
+          "views": 6873,
+          "appreciations": 1451,
+          "comments": 136
+        },
+        "conceived_on": -62169984000
+      }
+    ],
+    "created_on": 1203804070,
+    "modified_on": 1443866509
+  },
+  "http_code": 200
+}

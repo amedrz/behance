@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Behance::Client::Project do
 
   before(:all) do
-    @client = Behance::Client.new(:access_token => "abc123")
+    @client = Behance::Client.new(access_token: "abc123")
   end
 
   before do
@@ -24,7 +24,7 @@ describe Behance::Client::Project do
       end
 
       it "gets a list of projects" do
-        @projects.size.should == 7
+        @projects.size.should == 12
       end
     end
 
@@ -36,7 +36,7 @@ describe Behance::Client::Project do
       end
 
       it "gets a list of projects" do
-        @client.projects(@options).size.should == 7
+        @client.projects(@options).size.should == 12
       end
     end
   end
@@ -71,7 +71,7 @@ describe Behance::Client::Project do
     end
 
     it "gets a list of comments" do
-      @comments.size.should == 9
+      @comments.size.should == 396
     end
   end
 end

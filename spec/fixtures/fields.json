@@ -1,26 +1,323 @@
-{ "fields": [
-  {
-    "id": 1,
-    "name": "Academia"
-  },
-  {
-    "id": 108,
-    "name": "Advertising"
-  },
-  {
-    "id": 3,
-    "name": "Animation"
-  },
-  {
-    "id": 4,
-    "name": "Architecture"
-  },
-  {
-    "id": 5,
-    "name": "Art Direction"
-  },
-  {
-    "id": 130,
-    "name": "Automotive Design"
-  }
-]}
+{
+  "fields": [
+    {
+      "id": 108,
+      "name": "Advertising"
+    },
+    {
+      "id": 3,
+      "name": "Animation"
+    },
+    {
+      "id": 4,
+      "name": "Architecture"
+    },
+    {
+      "id": 5,
+      "name": "Art Direction"
+    },
+    {
+      "id": 130,
+      "name": "Automotive Design"
+    },
+    {
+      "id": 109,
+      "name": "Branding"
+    },
+    {
+      "id": 133,
+      "name": "Calligraphy"
+    },
+    {
+      "id": 9,
+      "name": "Cartooning"
+    },
+    {
+      "id": 124,
+      "name": "Character Design"
+    },
+    {
+      "id": 12,
+      "name": "Cinematography"
+    },
+    {
+      "id": 15,
+      "name": "Computer Animation"
+    },
+    {
+      "id": 19,
+      "name": "Copywriting"
+    },
+    {
+      "id": 20,
+      "name": "Costume Design"
+    },
+    {
+      "id": 21,
+      "name": "Crafts"
+    },
+    {
+      "id": 137,
+      "name": "Creative Direction"
+    },
+    {
+      "id": 23,
+      "name": "Culinary Arts"
+    },
+    {
+      "id": 122,
+      "name": "Digital Art"
+    },
+    {
+      "id": 27,
+      "name": "Digital Photography"
+    },
+    {
+      "id": 28,
+      "name": "Directing"
+    },
+    {
+      "id": 110,
+      "name": "Drawing"
+    },
+    {
+      "id": 32,
+      "name": "Editorial Design"
+    },
+    {
+      "id": 33,
+      "name": "Engineering"
+    },
+    {
+      "id": 35,
+      "name": "Entrepreneurship"
+    },
+    {
+      "id": 36,
+      "name": "Exhibition Design"
+    },
+    {
+      "id": 37,
+      "name": "Fashion"
+    },
+    {
+      "id": 93,
+      "name": "Fashion Styling"
+    },
+    {
+      "id": 38,
+      "name": "Film"
+    },
+    {
+      "id": 112,
+      "name": "Fine Arts"
+    },
+    {
+      "id": 40,
+      "name": "Furniture Design"
+    },
+    {
+      "id": 41,
+      "name": "Game Design"
+    },
+    {
+      "id": 43,
+      "name": "Graffiti"
+    },
+    {
+      "id": 44,
+      "name": "Graphic Design"
+    },
+    {
+      "id": 131,
+      "name": "Icon Design"
+    },
+    {
+      "id": 48,
+      "name": "Illustration"
+    },
+    {
+      "id": 49,
+      "name": "Industrial Design"
+    },
+    {
+      "id": 50,
+      "name": "Information Architecture"
+    },
+    {
+      "id": 51,
+      "name": "Interaction Design"
+    },
+    {
+      "id": 52,
+      "name": "Interior Design"
+    },
+    {
+      "id": 53,
+      "name": "Jewelry Design"
+    },
+    {
+      "id": 54,
+      "name": "Journalism"
+    },
+    {
+      "id": 55,
+      "name": "Landscape Design"
+    },
+    {
+      "id": 59,
+      "name": "MakeUp Arts (MUA)"
+    },
+    {
+      "id": 63,
+      "name": "Motion Graphics"
+    },
+    {
+      "id": 64,
+      "name": "Music"
+    },
+    {
+      "id": 66,
+      "name": "Packaging"
+    },
+    {
+      "id": 67,
+      "name": "Painting"
+    },
+    {
+      "id": 69,
+      "name": "Pattern Design"
+    },
+    {
+      "id": 70,
+      "name": "Performing Arts"
+    },
+    {
+      "id": 73,
+      "name": "Photography"
+    },
+    {
+      "id": 74,
+      "name": "Photojournalism"
+    },
+    {
+      "id": 78,
+      "name": "Print Design"
+    },
+    {
+      "id": 79,
+      "name": "Product Design"
+    },
+    {
+      "id": 123,
+      "name": "Programming"
+    },
+    {
+      "id": 136,
+      "name": "Retouching"
+    },
+    {
+      "id": 86,
+      "name": "Sculpting"
+    },
+    {
+      "id": 87,
+      "name": "Set Design"
+    },
+    {
+      "id": 118,
+      "name": "Sound Design"
+    },
+    {
+      "id": 91,
+      "name": "Storyboarding"
+    },
+    {
+      "id": 135,
+      "name": "Street Art"
+    },
+    {
+      "id": 95,
+      "name": "Textile Design"
+    },
+    {
+      "id": 126,
+      "name": "Toy Design"
+    },
+    {
+      "id": 97,
+      "name": "Typography"
+    },
+    {
+      "id": 132,
+      "name": "UI/UX"
+    },
+    {
+      "id": 120,
+      "name": "Visual Effects"
+    },
+    {
+      "id": 102,
+      "name": "Web Design"
+    },
+    {
+      "id": 103,
+      "name": "Web Development"
+    },
+    {
+      "id": 105,
+      "name": "Writing"
+    }
+  ],
+  "popular": [
+    {
+      "id": 44,
+      "name": "Graphic Design"
+    },
+    {
+      "id": 73,
+      "name": "Photography"
+    },
+    {
+      "id": 51,
+      "name": "Interaction Design"
+    },
+    {
+      "id": 5,
+      "name": "Art Direction"
+    },
+    {
+      "id": 48,
+      "name": "Illustration"
+    },
+    {
+      "id": 49,
+      "name": "Industrial Design"
+    },
+    {
+      "id": 63,
+      "name": "Motion Graphics"
+    },
+    {
+      "id": 37,
+      "name": "Fashion"
+    },
+    {
+      "id": 4,
+      "name": "Architecture"
+    },
+    {
+      "id": 109,
+      "name": "Branding"
+    },
+    {
+      "id": 102,
+      "name": "Web Design"
+    },
+    {
+      "id": 132,
+      "name": "UI/UX"
+    }
+  ],
+  "http_code": 200
+}

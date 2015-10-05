@@ -1,14 +1,34 @@
 {
-
   "revision": {
     "id": 133,
-      "description": "Here's the first version of the schedule for a sample event. I think the time increments for actual review meetings work for small groups, but possibly not for larger ones. I like the actions at the bottom. Working for others?",
-      "image": "http://behance.vo.llnwd.net/profiles/50004/wips/69/disp_4eb1864fcbe705dbcd6eca5ff155a454.png",
-      "tags": [
-        "behance",
+    "wip_id": 69,
+    "description": "Here's the first version of the schedule for a sample event. I think the time increments for actual review meetings work for small groups, but possibly not for larger ones. I like the actions at the bottom. Working for others?",
+    "short_url": "http://be.net/wip/69/133",
+    "url": "https://www.behance.net/wip/69/133",
+    "images": {
+      "thumbnail_sm": {
+        "width": 160,
+        "height": 160,
+        "url": "https://mir-s3-cdn-cf.behance.net/wip/thumb/133.53e395739d959.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 200,
+        "url": "https://mir-s3-cdn-cf.behance.net/wip/320pxthumb/133.53e395739d959.png"
+      },
+      "normal_resolution": {
+        "width": 708,
+        "height": 443,
+        "url": "https://mir-s3-cdn-cf.behance.net/wip/disp/133.53e395739d959.png"
+      }
+    },
+    "number": 1,
+    "created_on": 1338927430,
+    "tags": [
+      "behance",
       "schedule",
       "information"
-        ]
-  }
-
+    ]
+  },
+  "http_code": 200
 }
