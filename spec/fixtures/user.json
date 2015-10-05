@@ -1,40 +1,42 @@
 {
-
   "user": {
     "id": 50001,
-      "first_name": "Matias",
-      "last_name": "Corea",
-      "username": "MatiasCorea",
-      "city": "Brooklyn",
-      "state": "New York",
-      "country": "United States",
-      "company": "Behance",
-      "occupation": "Chief Designer & Co-Founder",
-      "created_on": 1182475806,
-      "url": "http://www.behance.net/MatiasCorea",
-      "display_name": "Matias Corea",
-      "images": {
-        "32": "http://behance.vo.llnwd.net/profiles/50001/32xac8d5163265f6898d0b970dbfcdf4868.png",
-        "50": "http://behance.vo.llnwd.net/profiles/50001/50xac8d5163265f6898d0b970dbfcdf4868.png",
-        "78": "http://behance.vo.llnwd.net/profiles/50001/78xac8d5163265f6898d0b970dbfcdf4868.png",
-        "115": "http://behance.vo.llnwd.net/profiles/50001/115xac8d5163265f6898d0b970dbfcdf4868.png",
-        "129": "http://behance.vo.llnwd.net/profiles/50001/129xac8d5163265f6898d0b970dbfcdf4868.png",
-        "138": "http://behance.vo.llnwd.net/profiles/50001/ac8d5163265f6898d0b970dbfcdf4868.png"
-      },
-      "fields": [
-        "Web Design",
-      "Typography",
+    "first_name": "Matias",
+    "last_name": "Corea",
+    "username": "MatiasCorea",
+    "city": "Brooklyn",
+    "state": "New York",
+    "country": "United States",
+    "location": "Brooklyn, NY, USA",
+    "company": "",
+    "occupation": "Co-Founder of Behance",
+    "created_on": 1182475806,
+    "url": "https://www.behance.net/MatiasCorea",
+    "images": {
+      "50": "https://mir-s3-cdn-cf.behance.net/user/50/50001.53a98298a8f3a.jpg",
+      "100": "https://mir-s3-cdn-cf.behance.net/user/100/50001.53a98298a8f3a.jpg",
+      "115": "https://mir-s3-cdn-cf.behance.net/user/115/50001.53a98298a8f3a.jpg",
+      "230": "https://mir-s3-cdn-cf.behance.net/user/230/50001.53a98298a8f3a.jpg",
+      "138": "https://mir-s3-cdn-cf.behance.net/user/138/50001.53a98298a8f3a.jpg",
+      "276": "https://mir-s3-cdn-cf.behance.net/user/276/50001.53a98298a8f3a.jpg"
+    },
+    "display_name": "Matias Corea",
+    "fields": [
+      "Graphic Design",
+      "Print Design",
       "Interaction Design"
-        ],
-      "twitter": "@matiascorea",
-      "links": [
+    ],
+    "has_default_image": 0,
+    "website": "http://www.matiascorea.com",
+    "twitter": "@matiascorea",
+    "links": [
       {
         "title": "My Blog",
         "url": "http://www.matiascorea.com/blog"
       },
       {
         "title": "My Twitter Feed",
-        "url": "www.twitter.com/matiascorea"
+        "url": "http://www.twitter.com/matiascorea"
       },
       {
         "title": "Desing Droplets Interview",
@@ -53,9 +55,141 @@
         "url": "http://www.swiss-miss.com/2010/05/99-conference-2010-motion-graphics.html"
       }
     ],
-      "sections": {
-        "Where, When and What": "I spent my school years freelancing out of my father's architecture studio, so architecture and urbanism have had a huge influence on the way I approach design. From form to function.\n\nFollowing school in La Massana, I spent two years working for various small design shops in Barcelona like Zeligmedia, M.A.Y.A Design, and Triada Communication Agency. Eventually I felt that I needed to leave Barcelona to look for other opportunities, and I found myself heading to NYC in October 2002.\n\nI was lucky to be hired by Michael Ian Kaye (former Creative Director at Oglivy) to work at AR Media, where I had the chance to work on accounts such as Versace, Dolce & Gabanna, Valentino, Ann Taylor, Naturalizer, Influence Magazine, Escada, and many more.\n\nAfter that, I worked for Pro Am under the strict vigilance of John Malcolmson and Simon Endres, where I learned the craft of branding, and a love for design process.\n\nNow I find myself as Chief Designer at Behance, trying to make the lives of other creatives better."
+    "sections": {
+      "Where, When and What": "I spent my school years freelancing out of my father's architecture studio, so architecture and urbanism have had a huge influence on the way I approach design. From form to function.\n\nFollowing school in La Massana, I spent two years working for various small design shops in Barcelona like Zeligmedia, M.A.Y.A Design, and Triada Communication Agency. Eventually I felt that I needed to leave Barcelona to look for other opportunities, and I found myself heading to NYC in October 2002.\n\nI was lucky to be hired by Michael Ian Kaye (former Creative Director at Oglivy) to work at AR Media, where I had the chance to work on accounts such as Versace, Dolce & Gabanna, Valentino, Ann Taylor, Naturalizer, Influence Magazine, Escada, and many more.\n\nAfter that, I worked for Pro Am under the strict vigilance of John Malcolmson and Simon Endres, where I learned the craft of branding, and a love for design process.\n\nNow I find myself as Head of Design at Behance, trying to make the lives of other creatives better."
+    },
+    "features": [
+      {
+        "site": {
+          "id": 1,
+          "name": "Behance.net",
+          "key": "net",
+          "icon": "https://a3.behance.net/img/site/favicon.ico",
+          "url": "http://www.behance.net",
+          "domain": "www.behance.net",
+          "ribbon": {
+            "image": "https://a3.behance.net/img/galleries/ribbons/1x/net.png",
+            "image_2x": "https://a3.behance.net/img/galleries/ribbons/2x/net@2x.png"
+          }
+        },
+        "projects": [
+          {
+            "id": 12139157,
+            "featured_on": 1396281602
+          }
+        ]
+      },
+      {
+        "site": {
+          "id": 125,
+          "name": "Pantone Canvas Gallery",
+          "key": "pantone",
+          "icon": "https://a3.behance.net/img/galleries/composed/pantone.png",
+          "domain": "canvas.pantone.com",
+          "url": "http://canvas.pantone.com",
+          "network_id": 31,
+          "ribbon": {
+            "image": "https://a3.behance.net/img/galleries/ribbons/1x/pantone.png",
+            "image_2x": "https://a3.behance.net/img/galleries/ribbons/2x/pantone@2x.png"
+          }
+        },
+        "projects": [
+          {
+            "id": 413783,
+            "featured_on": 1353848404
+          },
+          {
+            "id": 519495,
+            "featured_on": 1353722404
+          },
+          {
+            "id": 1797822,
+            "featured_on": 1353571203
+          },
+          {
+            "id": 2812719,
+            "featured_on": 1354226403
+          },
+          {
+            "id": 3750163,
+            "featured_on": 1353470403
+          },
+          {
+            "id": 3872017,
+            "featured_on": 1353142803
+          },
+          {
+            "id": 3856261,
+            "featured_on": 1353294003
+          },
+          {
+            "id": 5287059,
+            "featured_on": 1350331202
+          }
+        ]
+      },
+      {
+        "site": {
+          "id": 113,
+          "name": "SCAD Portfolios",
+          "key": "scad",
+          "icon": "https://a3.behance.net/img/galleries/composed/scad.png",
+          "domain": "portfolios.scad.edu",
+          "url": "http://portfolios.scad.edu",
+          "network_id": 21,
+          "ribbon": {
+            "image": "https://a3.behance.net/img/galleries/ribbons/1x/scad.png",
+            "image_2x": "https://a3.behance.net/img/galleries/ribbons/2x/scad@2x.png"
+          }
+        },
+        "projects": [
+          {
+            "id": 22886287,
+            "featured_on": 1426993202
+          }
+        ]
       }
-  }
-
+    ],
+    "stats": {
+      "followers": 63417,
+      "following": 1338,
+      "appreciations": 50450,
+      "views": 846776,
+      "team_members": 0,
+      "comments": 365
+    },
+    "social_links": [
+      {
+        "social_id": 8,
+        "url": "http://pinterest.com/matias_corea",
+        "service_name": "Pinterest",
+        "value": "matias_corea"
+      },
+      {
+        "social_id": 1,
+        "url": "http://twitter.com/matiascorea",
+        "service_name": "Twitter",
+        "value": "matiascorea"
+      },
+      {
+        "social_id": 2,
+        "url": "http://facebook.com/matiascoreaNY",
+        "service_name": "Facebook",
+        "value": "matiascoreaNY"
+      },
+      {
+        "social_id": 9,
+        "url": "http://matiascorea.tumblr.com",
+        "service_name": "Tumblr",
+        "value": "matiascorea"
+      },
+      {
+        "social_id": 4,
+        "url": "http://linkedin.com/in/matiascorea",
+        "service_name": "LinkedIn",
+        "value": "in/matiascorea"
+      }
+    ]
+  },
+  "http_code": 200
 }

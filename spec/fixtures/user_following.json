@@ -1,0 +1,362 @@
+{
+  "following": [
+    {
+      "id": 2354435,
+      "first_name": "Hong Kong Stunt Team",
+      "last_name": "LLC",
+      "username": "hkst",
+      "city": "Santa Ana",
+      "state": "California",
+      "country": "United States",
+      "location": "Santa Ana, CA, USA",
+      "company": "",
+      "occupation": "",
+      "created_on": 1363204760,
+      "url": "https://www.behance.net/hkst",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/2354435.53b8cb652f437.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/2354435.53b8cb652f437.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/2354435.53b8cb652f437.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/2354435.53b8cb652f437.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/2354435.53b8cb652f437.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/2354435.53b8cb652f437.jpg"
+      },
+      "display_name": "Hong Kong Stunt Team LLC",
+      "fields": [
+        "Industrial Design",
+        "Product Design",
+        "Fashion"
+      ],
+      "has_default_image": 0,
+      "website": "hongkongstuntteam.com"
+    },
+    {
+      "id": 5555473,
+      "first_name": "Neubau",
+      "last_name": "Berlin",
+      "username": "Neubau",
+      "city": "Berlin",
+      "state": "",
+      "country": "Germany",
+      "location": "Berlin, Germany",
+      "company": "Neubau",
+      "occupation": "",
+      "created_on": 1396883159,
+      "url": "https://www.behance.net/Neubau",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/5555473.547441ea6223e.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/5555473.547441ea6223e.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/5555473.547441ea6223e.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/5555473.547441ea6223e.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/5555473.547441ea6223e.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/5555473.547441ea6223e.jpg"
+      },
+      "display_name": "Neubau Berlin",
+      "fields": [
+        "Typography",
+        "Print Design",
+        "Graphic Design"
+      ],
+      "has_default_image": 0,
+      "website": "neubauberlin.com"
+    },
+    {
+      "id": 12472505,
+      "first_name": "Sara",
+      "last_name": "Marshall",
+      "username": "itssaramarshall",
+      "city": "Auckland",
+      "state": "",
+      "country": "New Zealand",
+      "location": "Auckland, New Zealand",
+      "company": "",
+      "occupation": "Graphic Designer/Lettering Artist",
+      "created_on": 1427081661,
+      "url": "https://www.behance.net/itssaramarshall",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/9709a612472505.552a1524607fd.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/9709a612472505.552a1524607fd.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/9709a612472505.552a1524607fd.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/9709a612472505.552a1524607fd.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/9709a612472505.552a1524607fd.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/9709a612472505.552a1524607fd.jpg"
+      },
+      "display_name": "Sara Marshall",
+      "fields": [
+        "Graphic Design",
+        "Calligraphy",
+        "Branding"
+      ],
+      "has_default_image": 0,
+      "website": "itssaramarshall.com"
+    },
+    {
+      "id": 983496,
+      "first_name": "Stephanie",
+      "last_name": "Toole",
+      "username": "Stephanietoole",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "location": "New York, NY, USA",
+      "company": "Brooks Brothers",
+      "occupation": "Head of Print Design",
+      "created_on": 1330984094,
+      "url": "https://www.behance.net/Stephanietoole",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/983496.53b2039a7c7c8.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/983496.53b2039a7c7c8.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/983496.53b2039a7c7c8.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/983496.53b2039a7c7c8.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/983496.53b2039a7c7c8.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/983496.53b2039a7c7c8.jpg"
+      },
+      "display_name": "Stephanie Toole",
+      "fields": [
+        "Graphic Design",
+        "Typography",
+        "Print Design"
+      ],
+      "has_default_image": 0,
+      "website": "www.stephanie-toole.com"
+    },
+    {
+      "id": 4912451,
+      "first_name": "Estudio",
+      "last_name": "Iuvaro",
+      "username": "estudio-iuvaro",
+      "city": "Mendoza",
+      "state": "",
+      "country": "Argentina",
+      "location": "Mendoza, Argentina",
+      "company": "Estudio Iuvaro",
+      "occupation": "Packaging Design",
+      "created_on": 1391106986,
+      "url": "https://www.behance.net/estudio-iuvaro",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/4912451.53c0f23f47c32.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/4912451.53c0f23f47c32.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/4912451.53c0f23f47c32.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/4912451.53c0f23f47c32.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/4912451.53c0f23f47c32.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/4912451.53c0f23f47c32.jpg"
+      },
+      "display_name": "Estudio Iuvaro",
+      "fields": [
+        "Packaging",
+        "Graphic Design",
+        "Branding"
+      ],
+      "has_default_image": 0,
+      "website": "http://www.estudioiuvaro.com/"
+    },
+    {
+      "id": 113284,
+      "first_name": "Aurelio",
+      "last_name": "Sánchez Escudero",
+      "username": "fluorink",
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "location": "New York, NY, USA",
+      "company": "Fluorink",
+      "occupation": "Graphic Designer / Art Director",
+      "created_on": 1247093224,
+      "url": "https://www.behance.net/fluorink",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/113284.542adbc5d7b23.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/113284.542adbc5d7b23.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/113284.542adbc5d7b23.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/113284.542adbc5d7b23.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/113284.542adbc5d7b23.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/113284.542adbc5d7b23.jpg"
+      },
+      "display_name": "Aurelio Sánchez Escudero",
+      "fields": [
+        "Graphic Design",
+        "Print Design",
+        "Branding"
+      ],
+      "has_default_image": 0,
+      "website": "www.fluorink.net"
+    },
+    {
+      "id": 1554051,
+      "first_name": "Sara",
+      "last_name": "Westermann",
+      "username": "sarawestermann",
+      "city": "Porto",
+      "state": "",
+      "country": "Portugal",
+      "location": "Porto, Portugal",
+      "company": "",
+      "occupation": "Graphic Designer / Art Director / Illustrator",
+      "created_on": 1346785016,
+      "url": "https://www.behance.net/sarawestermann",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/1554051.53b5108f7d208.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/1554051.53b5108f7d208.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/1554051.53b5108f7d208.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/1554051.53b5108f7d208.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/1554051.53b5108f7d208.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/1554051.53b5108f7d208.jpg"
+      },
+      "display_name": "Sara Westermann",
+      "fields": [
+        "Art Direction",
+        "Typography",
+        "Graphic Design"
+      ],
+      "has_default_image": 0,
+      "website": "www.sarawestermann.com"
+    },
+    {
+      "id": 930385,
+      "first_name": "BunkerType",
+      "last_name": "(Jesús Morentin)",
+      "username": "bunkertype",
+      "city": "Barcelona",
+      "state": "",
+      "country": "Spain",
+      "location": "Barcelona, Spain",
+      "company": "BunkerType",
+      "occupation": "Typographic design & printmaking. // Letterpress.",
+      "created_on": 1329035933,
+      "url": "https://www.behance.net/bunkertype",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/930385.53b1aa06d37ea.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/930385.53b1aa06d37ea.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/930385.53b1aa06d37ea.jpg"
+      },
+      "display_name": "BunkerType (Jesús Morentin)",
+      "fields": [
+        "Graphic Design",
+        "Print Design",
+        "Typography"
+      ],
+      "has_default_image": 0,
+      "website": "www.bunkertype.com"
+    },
+    {
+      "id": 2243759,
+      "first_name": "Romain",
+      "last_name": "Bucaille",
+      "username": "romainbucaille",
+      "city": "Paris",
+      "state": "",
+      "country": "France",
+      "location": "Paris, France",
+      "company": "",
+      "occupation": "Designer - Photograph",
+      "created_on": 1361304002,
+      "url": "https://www.behance.net/romainbucaille",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/2243759.53b84b06575ac.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/2243759.53b84b06575ac.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/2243759.53b84b06575ac.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/2243759.53b84b06575ac.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/2243759.53b84b06575ac.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/2243759.53b84b06575ac.jpg"
+      },
+      "display_name": "Romain Bucaille",
+      "fields": [
+        "Photography",
+        "Automotive Design",
+        "Architecture"
+      ],
+      "has_default_image": 0,
+      "website": ""
+    },
+    {
+      "id": 2177775,
+      "first_name": "Jessica HJ",
+      "last_name": "Lee",
+      "username": "jessica-hj-lee",
+      "city": "Brooklyn",
+      "state": "New York",
+      "country": "United States",
+      "location": "Brooklyn, NY, USA",
+      "company": "",
+      "occupation": "Illustrator",
+      "created_on": 1360095990,
+      "url": "https://www.behance.net/jessica-hj-lee",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/2177775.53b7fe920e985.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/2177775.53b7fe920e985.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/2177775.53b7fe920e985.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/2177775.53b7fe920e985.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/2177775.53b7fe920e985.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/2177775.53b7fe920e985.jpg"
+      },
+      "display_name": "Jessica HJ Lee",
+      "fields": [
+        "Illustration",
+        "Drawing",
+        "Fashion"
+      ],
+      "has_default_image": 0,
+      "website": "www.jessica-hj-lee.com"
+    },
+    {
+      "id": 468669,
+      "first_name": "Scott",
+      "last_name": "Wilson",
+      "username": "MNML1",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "location": "Chicago, IL, USA",
+      "company": "MINIMAL",
+      "occupation": "Founder",
+      "created_on": 1306278357,
+      "url": "https://www.behance.net/MNML1",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/468669.5432fbfc0a456.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/468669.5432fbfc0a456.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/468669.5432fbfc0a456.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/468669.5432fbfc0a456.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/468669.5432fbfc0a456.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/468669.5432fbfc0a456.jpg"
+      },
+      "display_name": "Scott Wilson",
+      "fields": [
+        "Product Design",
+        "Industrial Design",
+        "Entrepreneurship"
+      ],
+      "has_default_image": 0,
+      "website": "www.MNML.com"
+    },
+    {
+      "id": 57729,
+      "first_name": "Hello This",
+      "last_name": "Is Kae",
+      "username": "kaesthetics",
+      "city": "Belgrade",
+      "state": "",
+      "country": "Serbia",
+      "location": "Belgrade, Serbia",
+      "company": "Hello this is Kae",
+      "occupation": "Art Director",
+      "created_on": 1201375949,
+      "url": "https://www.behance.net/kaesthetics",
+      "images": {
+        "50": "https://mir-s3-cdn-cf.behance.net/user/50/71db3757729.55ba98750f431.jpg",
+        "100": "https://mir-s3-cdn-cf.behance.net/user/100/71db3757729.55ba98750f431.jpg",
+        "115": "https://mir-s3-cdn-cf.behance.net/user/115/71db3757729.55ba98750f431.jpg",
+        "230": "https://mir-s3-cdn-cf.behance.net/user/230/71db3757729.55ba98750f431.jpg",
+        "138": "https://mir-s3-cdn-cf.behance.net/user/138/71db3757729.55ba98750f431.jpg",
+        "276": "https://mir-s3-cdn-cf.behance.net/user/276/71db3757729.55ba98750f431.jpg"
+      },
+      "display_name": "Hello This Is Kae",
+      "fields": [
+        "Art Direction",
+        "Illustration",
+        "Graphic Design"
+      ],
+      "has_default_image": 0,
+      "website": "www.cargocollective.com/hellothisiskae"
+    }
+  ],
+  "http_code": 200
+}

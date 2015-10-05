@@ -1,16 +1,17 @@
 {
-    "stats": {
-        "today": {
-            "project_views": 220,
-            "project_appreciations": 5,
-            "project_comments": 0,
-            "profile_views": 28
-        },
-        "all_time": {
-            "project_views": 33488,
-            "project_appreciations": 1841,
-            "project_comments": 20,
-            "profile_views": 6587
-        }
+  "stats": {
+    "today": {
+      "project_views": 49,
+      "project_appreciations": 2,
+      "project_comments": 0,
+      "profile_views": 4
+    },
+    "all_time": {
+      "project_views": 113229,
+      "project_appreciations": 5417,
+      "project_comments": 630,
+      "profile_views": 18959
     }
+  },
+  "http_code": 200
 }
