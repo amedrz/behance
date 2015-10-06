@@ -78,7 +78,7 @@ describe Behance::Client::User do
 
     context "with parameters" do
       before do
-        @options.stub!(page: 1, time: Time.new)
+        @options.stub(page: 1, time: Time.new)
         stub_get("users/1/projects").with(query: @options).
           to_return(body: fixture("user_projects.json"))
       end

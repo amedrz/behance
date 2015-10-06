@@ -78,7 +78,7 @@ describe Behance::Client::Collections do
 
     context "with parameters" do
       before do
-        @options.stub!(page: 1, time: Time.new)
+        @options.stub(page: 1, time: Time.new)
         stub_get("collections/1/projects").with(query: @options).
           to_return(body: fixture("collection_projects.json"))
       end
