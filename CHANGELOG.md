@@ -1,6 +1,6 @@
 master
 ===
-...
+* Fix `stub! is deprecated` warning.
 
 0.6.0
 ===
