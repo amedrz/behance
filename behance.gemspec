@@ -17,8 +17,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency     'faraday',            '~> 0.14.0'
-  gem.add_runtime_dependency     'faraday_middleware', '~> 0.12.2'
+  gem.add_runtime_dependency     'faraday',            '>= 0.15'
+  gem.add_runtime_dependency     'faraday_middleware', '>= 0.12.2'
   gem.add_runtime_dependency     'json',               '~> 1.8.1'
   gem.add_development_dependency 'webmock',            '~> 1.8.10'
   gem.add_development_dependency 'rspec',              '~> 2.6'
