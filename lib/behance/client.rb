@@ -36,8 +36,8 @@ module Behance
     def initialize(options={})
       @access_token = options[:access_token]
       @connection = Faraday.new(url: Behance::Client::API_URL) do |b|
-        b.adapter Faraday.default_adapter
         b.use     FaradayMiddleware::ParseJson
+        b.adapter Faraday.default_adapter
       end
     end
 
